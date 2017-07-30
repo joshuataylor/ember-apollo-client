@@ -1,5 +1,6 @@
 import Ember from 'ember';
-import ApolloClient, { createNetworkInterface } from 'apollo-client';
+import ApolloClient from 'apollo-client';
+import {createNetworkInterface} from 'apollo-phoenix-websocket'
 
 const {
   A,
